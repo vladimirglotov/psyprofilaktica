@@ -17,7 +17,7 @@
 		<div class="cards">
 			<div class="cards__item-wrapper">
 				<div class="cards__item">
-					<img class="cards__image" src="./cards/kapelnica.jpg" loading="eager" alt="Капельницы">
+					<img class="cards__image" src="../static/cards/kapelnica.jpg" loading="eager" alt="Капельницы">
 					<h2>Вывод из запоя&nbsp;на дому быстро</h2>
 					<p>Прерывание запоя на дому. Эффективно и безопасно. Подбор самой наилучшей индивидуальной методики.</p>
 				</div>
@@ -27,7 +27,7 @@
 			</div>
 			<div class="cards__item-wrapper">
 				<div class="cards__item">
-					<img class="cards__image" src="./cards/shpritz.jpg" loading="eager" alt="Шприц">
+					<img class="cards__image" src="../static/cards/shpritz.jpg" loading="eager" alt="Шприц">
 					<h2>Кодирование от алкоголя на дому</h2>
 					<p>Избавление от тяги к спиртному. Высокая эффективность, проверенные методики. </p>
 				</div>
@@ -36,7 +36,7 @@
 				</div>			</div>
 			<div class="cards__item-wrapper">
 				<div class="cards__item">
-					<img class="cards__image" src="./cards/doctor.jpeg" loading="eager" alt="Доктор">
+					<img class="cards__image" src="../static/cards/doctor.jpeg" loading="eager" alt="Доктор">
 					<h2>Снять похмельный синдром быстро</h2>
 					<p>Быстрое избавления даже от самого тяжелого похмелья. Позволяет быстро "прийти в чувства".</p>
 				</div>
@@ -45,7 +45,7 @@
 				</div>			</div>
 			<div class="cards__item-wrapper">
 				<div class="cards__item">
-					<img class="cards__image" src="./cards/kapelnica2.jpg" loading="eager" alt="Капельница">
+					<img class="cards__image" src="../static/cards/kapelnica2.jpg" loading="eager" alt="Капельница">
 					<h2>Снять ломку на&nbsp;дому анонимно</h2>
 					<p>Снятие наркотической абстиненции на дому. Сделаем синдром отмены незаметным!</p>
 				</div>

@@ -2,7 +2,7 @@
 	<footer class="footer">
 		<!-- <div class="footer-wrapper"> -->
 			<div class="footer__info">
-				<img src="./narcology-logo.png" loading="lazy" alt="Логотип клиники">
+				<img src="../static/narcology-logo.png" loading="lazy" alt="Логотип клиники">
 				<!-- <span>Услуги нарколога на дому.<br> Быстро.&nbsp; Анонимно.&nbsp;Круглосуточно.</span> -->
 			</div>
 			<div class="footer__info">

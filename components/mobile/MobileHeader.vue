@@ -2,7 +2,7 @@
 	<mobile-header class="mobile-header">
 		<div class="mobile-header-wrapper">
 			<div class="mobile-header__info">
-				<img src="./narco-logo.png" loading="lazy" alt="Логотип клиники">
+				<img src="../static/narco-logo.png" loading="lazy" alt="Логотип клиники">
 				<span class="cd">Услуги нарколога на дому.<br> Быстро.&nbsp; Анонимно.&nbsp; Круглосуточно.</span>
 			</div>
 			<div class="mobile-header__info">
