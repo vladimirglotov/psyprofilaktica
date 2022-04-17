@@ -241,12 +241,12 @@ i {
     transform: scale(.85);
   }
 }
-@media screen and (max-width: 1030px) {
-	.footer__info img {
-		height: 230px;
-	}
+// @media screen and (max-width: 1030px) {
+// 	.footer__info img {
+// 		height: 230px;
+// 	}
 	
-}
+// }
 @media screen and (max-width: 950px) {
 	.footer {
 		flex-wrap: wrap;

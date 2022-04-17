@@ -7,7 +7,7 @@
         </div>
         <transition name="fade">
         <div v-if="isBurgerVisible" class="burger-menu">
-			<nav @click="isBurgerVisible = !isBurgerVisible" class="burger-menu__wrapper">
+			<nav @click="toggleBurger" class="burger-menu__wrapper">
 				<nuxt-link  class="burger-menu__link" to="/">Главная</nuxt-link>
 				<nuxt-link  class="burger-menu__link" to="/kodirovanie">Кодирование на дому </nuxt-link>
 				<nuxt-link  class="burger-menu__link" to="/vivod-iz-zapoya">Вывод из запоя на дому</nuxt-link>
@@ -18,7 +18,7 @@
 			</nav>
 		</div>
         </transition>
-        <div @click="isBurgerVisible = !isBurgerVisible" class="burger">
+        <div @click="toggleBurger" class="burger">
 			<div class="burger-sticks" :class="{'active' : isBurgerVisible}">
 			<span></span>
 			</div>
@@ -88,6 +88,16 @@ export default {
         }
     },
     methods: {
+        toggleBurger() {
+            this.isBurgerVisible = !this.isBurgerVisible
+
+            if (this.isBurgerVisible) {
+                this.$refs['container'].style.height = '100vh'
+                this.$refs['container'].style.overflow = 'hidden' 
+            } else {
+                this.$refs['container'].style.height = 'auto'
+            }
+        },
         async sendContacts() {
             const token = '5229234478:AAFYUDxRZyEJL7i2qlqnOQ2Lf0M9ANu0mRs'
             const chat_id = '565439172'

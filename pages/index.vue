@@ -400,7 +400,7 @@ h4 {
 		margin-bottom: 6px;
 		border-radius: 6px;
 		width: 215px;
-		height: 215px;
+		height: auto;
 	}
 	&__button {
 		position: absolute;

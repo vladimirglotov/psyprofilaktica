@@ -18,7 +18,7 @@
         </p>
         <VueSlickCarousel class="last-p" v-bind="settings">
             <div v-for="i in counter" :key="i">
-                <img :src="'/photos/' + i + '.jpeg'" alt="Фото клиники">
+                <img :src="'../static/photos/' + i + '.jpeg'" alt="Фото клиники">
             </div>
         </VueSlickCarousel>
         <h2 class="main-title">Видео тур по стационару</h2>
