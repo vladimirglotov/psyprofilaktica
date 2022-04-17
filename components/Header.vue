@@ -2,7 +2,7 @@
 	<header class="header">
 		<div class="header-wrapper">
 			<div class="header__info">
-				<img src="./narco-logo.png" loading="lazy" alt="Логотип клиники">
+				<img src="../static/narco-logo.png" loading="lazy" alt="Логотип клиники">
 				<span class="cd">Услуги нарколога на дому.<br> Быстро.&nbsp; Анонимно.&nbsp; Круглосуточно.</span>
 			</div>
 			<div class="header__info">
