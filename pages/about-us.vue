@@ -18,7 +18,7 @@
         </p>
         <VueSlickCarousel class="last-p" v-bind="settings">
             <div v-for="i in counter" :key="i">
-                <img :src="'../static/photos/' + i + '.jpeg'" alt="Фото клиники">
+                <img :src="require('../static/photos/' + i + '.jpeg')" alt="Фото клиники">
             </div>
         </VueSlickCarousel>
         <h2 class="main-title">Видео тур по стационару</h2>
@@ -46,8 +46,6 @@ export default {
             settings: {
             "dots": true,
             "arrows": false,
-            // "dotsClass": "slick-dots custom-dot-class",
-            // "edgeFriction": 0.35,
             "autoplay": true,
             "lazyLoad": 'progessive',
             "infinite": false,
@@ -56,9 +54,6 @@ export default {
             "slidesToScroll": 1,
             "centerMode": true,
             "swipeToSlide": true
-            // "adaptiveHeight": true,
-            // "centerPadding": '200px',
-            // "variableWidth": true
         }
     }),
     	head() {
