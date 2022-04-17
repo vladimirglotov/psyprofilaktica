@@ -118,6 +118,7 @@ i {
 
 		img {
 			height: 270px;
+			width: 264px;
 			border-radius: 50%;
 			// margin-bottom: 10px;
 			// border: 1px solid lightgray;

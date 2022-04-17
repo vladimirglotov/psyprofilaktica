@@ -128,6 +128,7 @@ i {
 		}
 		img {
 			height: 80px;
+			width: 111.4px;
 			border-radius: 20px;
 			margin-bottom: 10px;
 			border: 1px solid lightgray;

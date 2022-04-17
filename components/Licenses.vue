@@ -24,6 +24,7 @@ export default {
     }
     img {
         width: 33.33%;
+        height: auto;
         transition: all 0.3s;
     }
     img:hover {
